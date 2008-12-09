@@ -1,0 +1,112 @@
+(./first.tex
+
+ConTeXt  ver: 2008.05.21 15:21 MKIV  fmt: 2008.12.8  int: english/english
+
+language       : language en is active
+system         : cont-new loaded
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/cont-new.tex
+systems         : beware: some patches loaded from cont-new.tex
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/cont-new.mkiv
+lua            : used config path - /usr/local/texlive/2008/texmf/web2c/texmf.cnf
+lua            : used cache path - /home/ypv126/luatex-cache/context/79597d0cc507e8e510dd517f8850b2ca
+) (/usr/local/texlive/2008/texmf-dist/tex/context/base/cont-mtx.tex))
+system         : cont-old loaded
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/cont-old.tex
+loading        : Context Old Macros
+)
+system         : cont-fil loaded
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/cont-fil.tex
+loading        : Context File Synonyms
+)
+system         : cont-sys.rme loaded
+(/usr/local/texlive/2008/texmf-dist/tex/context/user/cont-sys.rme (/usr/local/texlive/2008/texmf-dist/tex/context/base/type-tmf.tex) (/usr/local/texlive/2008/texmf-dist/tex/context/base/type-siz.tex) (/usr/local/texlive/2008/texmf-dist/tex/context/base/type-otf.tex))
+bodyfont       : 12pt rm is loaded
+specials       : tex loaded
+system         : first.top loaded
+(./first.top
+specials       : loading definition file tpd
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/spec-tpd.tex
+specials       : loading definition file fdf
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/spec-fdf.tex (/usr/local/texlive/2008/texmf-dist/tex/context/base/spec-fdf.mkiv))
+specials       : fdf loaded
+)
+specials       : fdf loaded
+) (./first.tuo) (./first.tuo)
+systems        : begin file first at line 3
+color          : mpcmyk color space is supported
+color          : mpspot color space is supported
+color          : system rgb is global activated
+chapter        : 1 First
+systems        : randomizer starts with 1179755140
+mplib          : loading format: metafun.mp, name: /home/ypv126/luatex-cache/context/79597d0cc507e8e510dd517f8850b2ca/formats/cont-en-metafun.mem
+fonts          : resetting map file list
+{/usr/local/texlive/2008/texmf-dist/fonts/map/pdftex/context/original-empty.map}
+fonts          : using map file: original-base
+{/usr/local/texlive/2008/texmf-dist/fonts/map/pdftex/context/original-base.map}
+fonts          : using map file: lm-math
+{/usr/local/texlive/2008/texmf-dist/fonts/map/dvips/lm/lm-math.map}
+fonts          : using map file: lm-rm
+{/usr/local/texlive/2008/texmf-dist/fonts/map/dvips/lm/lm-rm.map}
+fonts          : using map file: original-ams-base
+{/usr/local/texlive/2008/texmf-dist/fonts/map/pdftex/context/original-ams-base.map}
+fonts          : using map file: original-ams-euler
+{/usr/local/texlive/2008/texmf-dist/fonts/map/pdftex/context/original-ams-euler.map}
+fonts          : using map file: original-public-lm
+{/usr/local/texlive/2008/texmf-dist/fonts/map/pdftex/context/original-public-lm.map}
+Overfull \hbox (36.64006pt too wide) in paragraph at lines 7--7
+[][]\*12pttttftt*: UUID=d1686c3c-592a-42ab-b5d8-c1094d907b36 / ext3 de-faults,errors=remount-ro
+
+\hbox(8.328+1.668)x426.78743, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\*12pttttftt*: U
+.\*12pttttftt*: U
+.\*12pttttftt*: I
+.etc.
+
+
+Overfull \hbox (5.78807pt too wide) in paragraph at lines 9--9
+[][]\*12pttttftt*: UUID=26a01337-1538-48c0-a19e-834b42a58e23 /mnt/localhost ext3 de-faults
+
+\hbox(8.328+0.996)x426.78743, direction TLT
+.\whatsit
+..\localinterlinepenalty=0
+..\localbrokenpenalty=0
+..\localleftbox=null
+..\localrightbox=null
+.\hbox(0.0+0.0)x0.0, direction TLT
+.\*12pttttftt*: U
+.\*12pttttftt*: U
+.\*12pttttftt*: I
+.etc.
+
+[1.1]
+systems        : end file first at line 44
+system         : cont-err loaded
+(/usr/local/texlive/2008/texmf-dist/tex/context/base/cont-err.tex
+systems        : no file 'cont-sys.tex', using 'cont-sys.rme' instead
+) )</usr/local/texlive/2008/texmf-dist/fonts/opentype/public/lm/lmmono12-regular.otf></usr/local/texlive/2008/texmf-dist/fonts/opentype/public/lm/lmmono10-italic.otf></usr/local/texlive/2008/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf>
+mkiv lua stats : used config path          - /usr/local/texlive/2008/texmf/web2c/texmf.cnf
+mkiv lua stats : used cache path           - /home/ypv126/luatex-cache/context/79597d0cc507e8e510dd517f8850b2ca
+mkiv lua stats : modules/dumps/instances   - 85/20/1
+mkiv lua stats : input load time           - 0.201 seconds
+mkiv lua stats : fonts load time           - 1.126 seconds
+mkiv lua stats : xml load time             - 0.000 seconds, backreferences: 0, outer filtering time: 0.000
+mkiv lua stats : mps conversion time       - 0.000 seconds
+mkiv lua stats : node processing time      - 0.001 seconds (including kernel)
+mkiv lua stats : kernel processing time    - 0.000 seconds
+mkiv lua stats : attribute processing time - 0.004 seconds
+mkiv lua stats : language load time        - 0.032 seconds, n=2
+mkiv lua stats : graphics processing time  - 0.000 seconds, n=0 (including tex)
+mkiv lua stats : metapost processing time  - 0.002 seconds, loading: 0.033 seconds, execution: 0.015 seconds, n: 1
+mkiv lua stats : current memory usage      - 50550992 bytes
+mkiv lua stats : cleaned up reserved nodes - 20 nodes, 8 lists of 100
+mkiv lua stats : node memory usage         - 20 glue_spec, 2 dir
+mkiv lua stats : loaded patterns           - en:en:pat:exc:2
+mkiv lua stats : loaded fonts              - file:lmmono10-italic:otf file:lmmono12-regular:otf file:lmroman10-bolditalic*default:otf file:lmroman10-italic*default:otf file:lmroman12-bold*default:otf file:lmroman12-italic*default:otf file:lmroman12-regular*default:otf file:lmroman7-bold*default:otf file:lmroman7-regular*default:otf file:lmroman9-bold*default:otf file:lmroman9-italic*default:otf file:lmroman9-regular*default:otf file:lmromancaps10-regular*default:otf file:lmromanslant10-bold*default:otf file:lmromanslant10-regular*default:otf file:lmromanslant12-regular*default:otf file:lmromanslant9-regular*default:otf lmex10:tfm lmmi12:tfm lmmi7:tfm lmmi9:tfm lmsy10:tfm lmsy7:tfm lmsy9:tfm msam10:tfm msam7:tfm msbm10:tfm msbm7:tfm rm-lmr12:tfm rm-lmr7:tfm rm-lmr9:tfm
+mkiv lua stats : runtime                   - 2.307 seconds, 1 processed pages, 1 shipped pages, 0.433 pages/second
+

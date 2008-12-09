@@ -1,0 +1,6 @@
+\unprotect
+\setupoutput[pdftex]
+\setupsystem[\c!n=0,\c!m=0]
+\setupsystem[\c!type=unix]
+\protect
+\endinput

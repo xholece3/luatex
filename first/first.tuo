@@ -1,0 +1,12 @@
+% traditional utility file, only commands written by mtxrun/context
+%
+\thisissectionseparator{-}%
+\thisisutilityversion{2006.09.21}%
+\usedmapfile{=}{original-base}%
+\usedmapfile{=}{lm-math}%
+\usedmapfile{=}{lm-rm}%
+\usedmapfile{=}{original-ams-base}%
+\usedmapfile{=}{original-ams-euler}%
+\usedmapfile{=}{original-public-lm}%
+\listentry{chapter}{1}{1}{First}{2--0-1-0-0-0-0-0--1}{1}%
+\endinput

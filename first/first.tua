@@ -1,0 +1,46 @@
+-- file   : first
+-- format : cont-en
+-- stamp  : 2008.05.21 15:21
+-- escape : [===[ ... ]===]
+-- version: 2006.09.21
+
+-- begin of utility file
+
+if job and job.version and not job.version == "2006.09.21" then return end
+if not job then job = { } end
+job.version = "2006.09.21"
+local ti = table.insert
+if not job.variables then job.variables = { } end
+if not job.twopass then job.twopass = { } end
+local tp = job.twopass
+job.definetwopassdata('strategy')
+job.definetwopassdata('paragraph')
+job.definetwopassdata('list')
+job.definetwopassdata('floatdata')
+job.definetwopassdata('colset')
+job.definetwopassdata('subpage')
+job.definetwopassdata('page')
+job.definetwopassdata('profile')
+job.definetwopassdata('versionbegin')
+job.definetwopassdata('versionend')
+if not job.positions then job.positions = { } end
+local jp = job.positions
+if not job.objects then job.objects = { } end
+local ob = job.objects
+if not job.sortedlists then job.sortedlists = { } end
+local js = job.sortedlists
+job.definesortedlist('abbreviation')
+job.definesortedlist('logo')
+job.definesortedlist('unit')
+if not job.registers then job.registers = { } end
+local jr = job.registers
+job.defineregister('index')
+job.initializevariable("currentstrategypass","1")
+job.initializevariable("totalnofpositions","0")
+ti(js['abbreviation'],{'l','en'})
+ti(js['logo'],{'l','en'})
+ti(js['unit'],{'l','en'})
+ti(jr['index'],{'l','en'})
+job.initializevariable("lastpage","1")
+job.initializevariable("lastpagenumber","1")
+job.initializevariable("totalnofparbackgrounds","0")

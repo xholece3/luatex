@@ -1,0 +1,44 @@
+\mainlanguage[cs]
+
+\starttext
+
+
+\setupcolors[state=start]
+
+\chapter{First}
+
+%\startMPcode
+%	draw fullcircle
+%		scaled 3cm
+%		withpen pencircle scaled 2mm
+%		withcolor red ;
+%\stopMPcode
+
+\startluacode
+	tp = tex.sprint
+	escape = characters.filters.utf.private.escape
+	MyF = MyF or {}
+
+	local f = io.open("/etc/fstab")
+	if f then
+		tp("{\\tt")
+		for line in f:lines() do 
+			if string.find(line, "^#") then
+				str="{\\color[darkgray]{\\it%s}}\\par"
+			else
+				str="%s\\par"
+			end
+				
+			tp(string.format(str,escape(line)))
+		end
+		tp("}")
+	end
+\stopluacode
+
+%\def\MyMacro#1%
+%	{\ctxlua{tex.sprint("#1")}}
+%
+%\MyMacro{Hi}
+
+
+\stoptext

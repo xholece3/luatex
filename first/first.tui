@@ -1,0 +1,11 @@
+c \thisissectionseparator{-}
+c \thisisutilityversion{2006.09.21}
+f b {first}
+c \usedmapfile{=}{original-base}
+c \usedmapfile{=}{lm-math}
+c \usedmapfile{=}{lm-rm}
+c \usedmapfile{=}{original-ams-base}
+c \usedmapfile{=}{original-ams-euler}
+c \usedmapfile{=}{original-public-lm}
+c \listentry{chapter}{1}{1}{First}{2--0-1-0-0-0-0-0--1}{1}
+f e {first}
